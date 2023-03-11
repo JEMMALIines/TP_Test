@@ -17,6 +17,7 @@ public class Contrat implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer idContrat;
+    ;;
 
     @Temporal(TemporalType.DATE)
     private Date dateDebutContrat;
